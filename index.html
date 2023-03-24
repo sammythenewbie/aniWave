@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eweeby</title>
+  <link rel="stylesheet" href="styles1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7756979872.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  
+<ul>
+  <li><i class="fa-solid fa-wave-square"></i> aniWave</li>
+    <li><a href="#" class="ham-icon"><i class="fa-solid fa-bars"></i></a>
+    </li>
+    <li><span><img src="hehe.jpg" alt="hehe.jpg"></span></li>
+</ul>
+
+<div id="sideNavigation" class="sidenav">
+  <a href="#" class="close-btn">&times;</a>
+  <a href="#"><i class="fa-solid fa-circle-question"></i>   About</a>
+  <a href="#"><i class="fa-solid fa-icons"></i>  Features</a>
+  <a href="#" class="last"><i class="fa-solid fa-address-book"></i>  Contact Us</a>
+  <div class="login">
+    <button>Sign Up</button>
+    <button>Log In</button>
+  </div>
+</div>
+
+
+<div class="dateTime">
+<span id="date">
+  <i class="fa-solid fa-calendar-days"></i> March 24, 2023
+</span>
+<span id="time">
+  <i class="fa-solid fa-clock"></i> 08:20 PM
+</span>
+<span class="and">
+  <i class="fa-brands fa-android"></i> Android 
+</span>
+</div>
+
+
+
+<div class="featured">
+  <div class="featuredContent">
+    <img src="gulat.jpeg" alt="gulat.jpeg">
+    <p>
+       Based on our understanding about statistical tools, we will use the  students t test , but along the process, if there are changes in the.
+    </p>
+  </div>
+</div>
+
+
+ <div class="animeGallery">
+   <h3>Gallery</h3>
+ <div class="scroller">
+   <li><img src="zenitsu1.jpg" alt="zenitsu1.jpg">Demon Slayer Character</li>
+   
+    <li><img src="lovers.jpeg" alt="lovers.jpg">Demon Slayer Character</li>
+    
+   <li><img src="selena.jpg" alt="">Mobile Legends Hero</li>
+   
+   <li><img src="hehe.jpg" alt="hehe.jpg">Cute boy</li>
+   
+   <li><img src="gulat.jpeg" alt="gulat.jpeg">Demon Slayer Character</li>
+
+   </div>
+ </div>
+
+
+<footer>
+  <h5>Reach me:</h5>
+  <ul>
+    <li><i class="fa-brands fa-facebook"></i>facebook</li>
+    <li><i class="fa-brands fa-github"></i>Github</li>
+    <li><i class="fa-brands fa-telegram"></i>Telegram</li>
+    <li><i class="fa-solid fa-arrow-up"></i>Top</li>
+  </ul>
+  <small><p>sammythenewbie_17</p></small>
+</footer>
+<script>
+  document.querySelector("a.ham-icon").addEventListener("click", function(event){
+  document.getElementById("sideNavigation").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+});
+document.querySelector("a.close-btn").addEventListener("click", function(event){
+  document.getElementById("sideNavigation").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+});
+</script>
+</body>
+
+</html>
