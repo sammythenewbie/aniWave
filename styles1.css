@@ -164,6 +164,7 @@ footer {
 }
 footer ul {
     background: white;
+    z-index:1;
 }
 footer ul li {
   color:#004AAD;
