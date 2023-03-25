@@ -162,16 +162,18 @@ footer {
   height: auto;
   padding:5px;
 }
-footer ul {
+footer .ulFooter {
+    display: flex;
     background: white;
-    z-index:1;
+    z-index: 1;
 }
-footer ul li {
+footer .ulFooter li {
+  list-style-type: none;
   color:#004AAD;
   font-size: 1rem;
   text-align: center;
 }
-footer ul li i {
+footer .ulFooter li i {
   font-size: 40px;
   color:#004AAD;
 }
