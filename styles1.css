@@ -122,20 +122,20 @@ margin-left: auto;
   padding:10px 0;
 }
 .animeGallery .scroller {
-  width: 100%;
+  min-width: 100%;
   background: #004AAD;
+  display: flex;
   padding: 10px 10px;
   height: 50%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
+  overflow: scroll;
   gap: 10px;
-  justify-content:center;
 }
 .animeGallery .scroller li {
-  width:100%;
+  width:200px;
   height: 30%;
   list-style-type: none;
-  margin-block:2rem;
   font-size: 1.2rem;
   color:white;
 }
@@ -144,8 +144,8 @@ margin-left: auto;
 }
 .animeGallery .scroller li img {
   object-fit: cover;
-  width: inherit;
-  height: auto;
+  width: 200px;
+  height: 200px;
   vertical-align: middle;
   border-radius: 10px;
   margin-bottom:5px;
