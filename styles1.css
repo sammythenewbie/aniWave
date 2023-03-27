@@ -272,3 +272,8 @@ div a i {
   margin-right: 10px;
   color: gold;
 }
+button .fa-user-plus, .fa-circle-user {
+  margin-right: auto;
+  float: left;
+  font-size: 1.3rem;
+}
